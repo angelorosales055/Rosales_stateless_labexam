@@ -1,17 +1,20 @@
-# stateless_lab_exam
+# Rosales_stateless_labexam
 
-A new Flutter project.
+## Lab Exam 1 – Stateless Widget
+### Campus Store: Shopping Cart Page
+- **Course / Language**: Dart / Flutter
+- **Student Name**: Angelo Rosales
+- **Project Name**: stateless_lab_exam
+- **Theme**: Monochrome
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Features
+- Implemented strictly with **StatelessWidget** (`ShoppingCartPage` and reusable `CartItemCard`).
+- Custom **AppBar** with back navigation and a shopping cart badge created with `Stack`.
+- **Introduction section** featuring the Campus Store chip, heading, and subtitle.
+- **Delivery card** showing delivery destination and Change button.
+- **Order Items** with three complete product cards (Wireless Mouse, USB-C Hub, Laptop Stand).
+- Quantity controls and item removal with appropriate `debugPrint()` callbacks.
+- **Discount Banner** with voucher verification.
+- **Payment Summary** calculating subtotal, discount, delivery fee, and total.
+- Full-width **Place Order** button with lock icon.
+- Fully scrollable with `SingleChildScrollView` to prevent screen overflow.
